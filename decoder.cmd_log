@@ -1,0 +1,26 @@
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/decoder.v -lang verilog -prj final_project -o decoder.spl -module decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 decoder.spl C:/Users/blakesim/Documents/final_project/final_project/decoder.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/decoder.v -lang verilog -prj final_project -o decoder.spl -module decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 decoder.spl C:/Users/blakesim/Documents/final_project/final_project/decoder.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/decoder.v -lang verilog -prj final_project -o decoder.spl -module decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 decoder.spl C:/Users/blakesim/Documents/final_project/final_project/decoder.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/decoder.v -lang verilog -prj final_project -o decoder.spl -module decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 decoder.spl C:/Users/blakesim/Documents/final_project/final_project/decoder.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/decoder.v -lang verilog -prj final_project -o decoder.spl -module decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 decoder.spl C:/Users/blakesim/Documents/final_project/final_project/decoder.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/decoder.v -lang verilog -prj final_project -o decoder.spl -module decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 decoder.spl C:/Users/blakesim/Documents/final_project/final_project/decoder.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/decoder.v -lang verilog -prj final_project -o decoder.spl -module decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 decoder.spl C:/Users/blakesim/Documents/final_project/final_project/decoder.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/decoder.v -lang verilog -prj final_project -o decoder.spl -module decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 decoder.spl C:/Users/blakesim/Documents/final_project/final_project/decoder.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/decoder.v -lang verilog -prj final_project -o decoder.spl -module decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 decoder.spl C:/Users/blakesim/Documents/final_project/final_project/decoder.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/decoder.v -lang verilog -prj final_project -o decoder.spl -module decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 decoder.spl C:/Users/blakesim/Documents/final_project/final_project/decoder.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/decoder.v -lang verilog -prj final_project -o decoder.spl -module decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 decoder.spl C:/Users/blakesim/Documents/final_project/final_project/decoder.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/decoder.v -lang verilog -prj final_project -o decoder.spl -module decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 decoder.spl C:/Users/blakesim/Documents/final_project/final_project/decoder.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/decoder.v -lang verilog -prj final_project -o decoder.spl -module decoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 decoder.spl C:/Users/blakesim/Documents/final_project/final_project/decoder.sym 

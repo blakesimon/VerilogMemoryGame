@@ -1,0 +1,12 @@
+[Inputs]
+CLK
+RESET
+COUNT_EN
+LOAD_EN
+=LOAD_DATA[63:0]=
+[Outputs]
+=Q_OUT[63:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel counter_4bit
+

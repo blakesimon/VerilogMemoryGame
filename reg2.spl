@@ -1,0 +1,9 @@
+[Inputs]
+clk
+[Outputs]
+=x[63:0]=
+=y[63:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel reg2
+

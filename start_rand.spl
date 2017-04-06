@@ -1,0 +1,12 @@
+[Inputs]
+clk
+Q0
+Q1
+start
+[Outputs]
+Q2
+Q3
+[BiDir]
+[ATTRIBUTES]
+VeriModel start_rand
+

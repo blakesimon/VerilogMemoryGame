@@ -1,0 +1,4 @@
+vhdtdtfi -lib work C:/Users/blakesim/Documents/lab9/counter_3bit.v -lang verilog -prj final_project -o counter_4bit.spl -module counter_4bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 counter_4bit.spl C:/Users/blakesim/Documents/final_project/final_project/counter_4bit.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/counter_64bit.v -lang verilog -prj final_project -o counter_4bit.spl -module counter_4bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 counter_4bit.spl C:/Users/blakesim/Documents/final_project/final_project/counter_4bit.sym 

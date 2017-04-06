@@ -1,0 +1,277 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : simon_data_path.vf
+// /___/   /\     Timestamp : 12/06/2016 11:18:11
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/blakesim/Documents/final_project/final_project/simon_data_path.vf -w C:/Users/blakesim/Documents/final_project/final_project/simon_data_path.sch
+//Design Name: simon_data_path
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale  100 ps / 10 ps
+
+module ADD8_HXILINX_simon_data_path (CO, OFL, S, A, B, CI);
+
+
+   output 	      CO;
+   output 	      OFL;
+   output [7:0]       S;
+
+   input  [7:0]       A;
+   input  [7:0]       B;
+   input              CI;
+
+   assign   {CO, S} = A + B + CI;
+   assign   OFL     = ( A[7] & B[7] & (~S[7])) | ((~A[7]) & (~B[7]) & S[7]);
+
+endmodule
+`timescale  100 ps / 10 ps
+
+module COMP8_HXILINX_simon_data_path (EQ, A, B);
+    
+
+   output EQ;
+
+   input  [7:0] A;
+   input  [7:0] B;
+
+   assign EQ = (A==B) ;
+
+endmodule
+`timescale 100 ps / 10 ps
+
+module CB8CE_HXILINX_simon_data_path(CEO, Q, TC, C, CE, CLR);
+   
+   localparam TERMINAL_COUNT = 8'b1111_1111;
+   
+   output             CEO;
+   output [7:0]       Q;
+   output             TC;
+
+   input 	      C;	
+   input 	      CE;	
+   input 	      CLR;	
+   
+   reg   [7:0]        Q;
+   
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 8'b0000_0000;
+	else if (CE)
+	  Q <= Q + 1;
+     end
+   
+   assign CEO = TC & CE;
+   assign TC = (Q == TERMINAL_COUNT);
+   
+endmodule
+`timescale 100 ps / 10 ps
+
+module CB2CE_HXILINX_simon_data_path(CEO, Q0, Q1, TC, C, CE, CLR);
+   
+   localparam TERMINAL_COUNT = 2'b11;
+   
+   output             CEO;
+   output             Q0;
+   output             Q1;
+   output             TC;
+
+   input 	      C;	
+   input 	      CE;	
+   input 	      CLR;	
+   
+   reg                Q0;
+   reg                Q1;
+   
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  {Q1, Q0} <= 2'b00;
+	else if (CE)
+	  {Q1,Q0} <= {Q1,Q0} + 1;
+     end
+   
+   assign CEO = TC & CE;
+   assign TC = ({Q1,Q0} == TERMINAL_COUNT);
+   
+endmodule
+`timescale 1ns / 1ps
+
+module simon_data_path(blue, 
+                       green, 
+                       red, 
+                       RESET, 
+                       SYS_CLK, 
+                       yellow, 
+                       current_high, 
+                       g1, 
+                       g2, 
+                       g3, 
+                       g4, 
+                       high_score);
+
+    input blue;
+    input green;
+    input red;
+    input RESET;
+    input SYS_CLK;
+    input yellow;
+   output [7:0] current_high;
+   output g1;
+   output g2;
+   output g3;
+   output g4;
+   output [7:0] high_score;
+   
+   wire blu;
+   wire clk;
+   wire C_en;
+   wire gre;
+   wire [7:0] I;
+   wire I_cl;
+   wire I_en;
+   wire I_eq_J;
+   wire [7:0] J;
+   wire J_cl;
+   wire J_en;
+   wire J_max;
+   wire qini;
+   wire rand_done;
+   wire re;
+   wire s;
+   wire start;
+   wire timerout;
+   wire [63:0] X;
+   wire XLXN_7;
+   wire XLXN_8;
+   wire XLXN_47;
+   wire [63:0] XLXN_63;
+   wire [63:0] XLXN_64;
+   wire [7:0] XLXN_72;
+   wire [7:0] XLXN_96;
+   wire XLXN_100;
+   wire [63:0] Y;
+   wire yel;
+   wire [7:0] current_high_DUMMY;
+   
+   assign XLXN_100 = 0;
+   assign current_high[7:0] = current_high_DUMMY[7:0];
+   (* HU_SET = "XLXI_4_0" *) 
+   CB8CE_HXILINX_simon_data_path  XLXI_4 (.C(clk), 
+                                         .CE(I_en), 
+                                         .CLR(I_cl), 
+                                         .CEO(), 
+                                         .Q(I[7:0]), 
+                                         .TC());
+   (* HU_SET = "XLXI_5_1" *) 
+   CB8CE_HXILINX_simon_data_path  XLXI_5 (.C(clk), 
+                                         .CE(J_en), 
+                                         .CLR(J_cl), 
+                                         .CEO(), 
+                                         .Q(current_high_DUMMY[7:0]), 
+                                         .TC());
+   (* HU_SET = "XLXI_7_2" *) 
+   COMP8_HXILINX_simon_data_path  XLXI_7 (.A(I[7:0]), 
+                                         .B(J[7:0]), 
+                                         .EQ(I_eq_J));
+   BUF  XLXI_433 (.I(SYS_CLK), 
+                 .O(clk));
+   (* HU_SET = "XLXI_496_3" *) 
+   CB2CE_HXILINX_simon_data_path  XLXI_496 (.C(clk), 
+                                           .CE(XLXN_47), 
+                                           .CLR(RESET), 
+                                           .CEO(), 
+                                           .Q0(XLXN_7), 
+                                           .Q1(XLXN_8), 
+                                           .TC());
+   decoder  XLXI_510 (.clk(clk), 
+                     .I(I[7:0]), 
+                     .X(X[63:0]), 
+                     .Y(Y[63:0]), 
+                     .blue1(blu), 
+                     .green1(gre), 
+                     .red1(re), 
+                     .yellow1(yel));
+   (* HU_SET = "XLXI_512_4" *) 
+   COMP8_HXILINX_simon_data_path  XLXI_512 (.A(J[7:0]), 
+                                           .B(XLXN_72[7:0]), 
+                                           .EQ(J_max));
+   VCC  XLXI_529 (.P(XLXN_47));
+   reg1  XLXI_538 (.A(XLXN_63[63:0]), 
+                  .B(XLXN_64[63:0]), 
+                  .clk(clk), 
+                  .en(s), 
+                  .X(X[63:0]), 
+                  .Y(Y[63:0]));
+   simon_state  XLXI_541 (.blu(blu), 
+                         .Blue(blue), 
+                         .CLK(clk), 
+                         .gree(gre), 
+                         .Green(green), 
+                         .I_eq_J(I_eq_J), 
+                         .J_max(J_max), 
+                         .rand_done(rand_done), 
+                         .re(re), 
+                         .Red(red), 
+                         .RESET(RESET), 
+                         .START(start), 
+                         .timerout(timerout), 
+                         .yello(yel), 
+                         .Yellow(yellow), 
+                         .C_en(C_en), 
+                         .g1(g1), 
+                         .g2(g2), 
+                         .g3(g3), 
+                         .g4(g4), 
+                         .I_cl(I_cl), 
+                         .I_en(I_en), 
+                         .J_cl(J_cl), 
+                         .J_en(J_en), 
+                         .qini(qini));
+   OR4  XLXI_542 (.I0(gre), 
+                 .I1(blu), 
+                 .I2(re), 
+                 .I3(yel), 
+                 .O(rand_done));
+   con64  XLXI_553 (.con(XLXN_72[7:0]));
+   getx_y  XLXI_561 (.clk(clk), 
+                    .Q0(XLXN_7), 
+                    .Q1(XLXN_8), 
+                    .X(XLXN_63[63:0]), 
+                    .Y(XLXN_64[63:0]));
+   AND2  XLXI_569 (.I0(qini), 
+                  .I1(yellow), 
+                  .O(start));
+   counter25  XLXI_570 (.clk(clk), 
+                       .en(C_en), 
+                       .reset(RESET), 
+                       .timerout(timerout));
+   flag  XLXI_573 (.clk(clk), 
+                  .qini(qini), 
+                  .reset(RESET), 
+                  .start(yellow), 
+                  .flag(s));
+   (* HU_SET = "XLXI_581_5" *) 
+   ADD8_HXILINX_simon_data_path  XLXI_581 (.A(current_high_DUMMY[7:0]), 
+                                          .B(XLXN_96[7:0]), 
+                                          .CI(XLXN_100), 
+                                          .CO(), 
+                                          .OFL(), 
+                                          .S(J[7:0]));
+   con1  XLXI_582 (.con(XLXN_96[7:0]));
+   high_score  XLXI_585 (.clk(clk), 
+                        .J(current_high_DUMMY[7:0]), 
+                        .reset(RESET), 
+                        .high(high_score[7:0]));
+endmodule

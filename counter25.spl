@@ -1,0 +1,10 @@
+[Inputs]
+clk
+reset
+en
+[Outputs]
+timerout
+[BiDir]
+[ATTRIBUTES]
+VeriModel counter25
+

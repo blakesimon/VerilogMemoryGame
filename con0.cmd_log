@@ -1,0 +1,8 @@
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/con0.v -lang verilog -prj final_project -o con0.spl -module con0 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 con0.spl C:/Users/blakesim/Documents/final_project/final_project/con0.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/con0.v -lang verilog -prj final_project -o con0.spl -module con0 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 con0.spl C:/Users/blakesim/Documents/final_project/final_project/con0.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/con0.v -lang verilog -prj final_project -o con0.spl -module con0 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 con0.spl C:/Users/blakesim/Documents/final_project/final_project/con0.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/con0.v -lang verilog -prj final_project -o con0.spl -module con0 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 con0.spl C:/Users/blakesim/Documents/final_project/final_project/con0.sym 

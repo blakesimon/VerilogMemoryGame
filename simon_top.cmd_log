@@ -1,0 +1,335 @@
+vhdtdtfi -lib work C:/Users/blakesim/Documents/lab9/merge_arrays_mcu_top.v -lang verilog -prj final_project -o simon_top.spl -module simon_top -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_top.spl C:/Users/blakesim/Documents/final_project/final_project/simon_top.sym 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/blakesim/Documents/lab9/merge_arrays_mcu_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+xst -intstyle ise -ifn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.xst" -ofn "C:/Users/blakesim/Documents/final_project/final_project/simon_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ee201l_detour_top.ucf -p xc6slx16-csg324-3 simon_top.ngc simon_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o simon_top_map.ncd simon_top.ngd simon_top.pcf 
+par -w -intstyle ise -ol high -mt off simon_top_map.ncd simon_top.ncd simon_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml simon_top.twx simon_top.ncd -o simon_top.twr simon_top.pcf -ucf ee201l_detour_top.ucf 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 
+bitgen -intstyle ise -f simon_top.ut simon_top.ncd 

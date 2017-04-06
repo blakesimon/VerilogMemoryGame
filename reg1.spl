@@ -1,0 +1,12 @@
+[Inputs]
+clk
+en
+=A[63:0]=
+=B[63:0]=
+[Outputs]
+=X[63:0]=
+=Y[63:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel reg1
+

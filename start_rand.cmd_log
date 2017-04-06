@@ -1,0 +1,9 @@
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/start_rand.v -lang verilog -prj final_project -o start_rand.spl -module start_rand -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 start_rand.spl C:/Users/blakesim/Documents/final_project/final_project/start_rand.sym 
+vhdtdtfi -lang verilog -prj final_project -o C:/Users/blakesim/Documents/final_project/final_project/start_rand.tfi -lib work C:/Users/blakesim/Documents/final_project/final_project//start_rand.v -module start_rand -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/start_rand.v -lang verilog -prj final_project -o start_rand.spl -module start_rand -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 start_rand.spl C:/Users/blakesim/Documents/final_project/final_project/start_rand.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/start_rand.v -lang verilog -prj final_project -o start_rand.spl -module start_rand -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 start_rand.spl C:/Users/blakesim/Documents/final_project/final_project/start_rand.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/start_rand.v -lang verilog -prj final_project -o start_rand.spl -module start_rand -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 start_rand.spl C:/Users/blakesim/Documents/final_project/final_project/start_rand.sym 

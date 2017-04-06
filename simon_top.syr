@@ -1,0 +1,873 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: simon_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "simon_top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "simon_top"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : simon_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\blakesim\Documents\final_project\final_project\simon_state.v" into library work
+Parsing module <simon_state>.
+Analyzing Verilog file "C:\Users\blakesim\Documents\final_project\final_project\reg1.v" into library work
+Parsing module <reg1>.
+Analyzing Verilog file "C:\Users\blakesim\Documents\final_project\final_project\high_score.v" into library work
+Parsing module <high_score>.
+Analyzing Verilog file "C:\Users\blakesim\Documents\final_project\final_project\getx_y.v" into library work
+Parsing module <getx_y>.
+Analyzing Verilog file "C:\Users\blakesim\Documents\final_project\final_project\flag.v" into library work
+Parsing module <flag>.
+Analyzing Verilog file "C:\Users\blakesim\Documents\final_project\final_project\decoder.v" into library work
+Parsing module <decoder>.
+Analyzing Verilog file "C:\Users\blakesim\Documents\final_project\final_project\counter25.v" into library work
+Parsing module <counter25>.
+Analyzing Verilog file "C:\Users\blakesim\Documents\final_project\final_project\con64.v" into library work
+Parsing module <con64>.
+Analyzing Verilog file "C:\Users\blakesim\Documents\final_project\final_project\con1.v" into library work
+Parsing module <con1>.
+Analyzing Verilog file "C:\Users\blakesim\Documents\lab6\lab6\ee201_divider_with_single_step\ee201_debounce_DPB_SCEN_CCEN_MCEN.v" into library work
+Parsing module <ee201_debouncer>.
+Analyzing Verilog file "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf" into library work
+Parsing module <ADD8_HXILINX_simon_data_path>.
+Parsing module <COMP8_HXILINX_simon_data_path>.
+Parsing module <CB8CE_HXILINX_simon_data_path>.
+Parsing module <CB2CE_HXILINX_simon_data_path>.
+Parsing module <simon_data_path>.
+Analyzing Verilog file "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" into library work
+Parsing module <simon_top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <simon_top>.
+
+Elaborating module <BUFGP>.
+
+Elaborating module <ee201_debouncer(N_dc=28)>.
+WARNING:HDLCompiler:413 - "C:\Users\blakesim\Documents\lab6\lab6\ee201_divider_with_single_step\ee201_debounce_DPB_SCEN_CCEN_MCEN.v" Line 142: Result of 32-bit expression is truncated to fit in 28-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\blakesim\Documents\lab6\lab6\ee201_divider_with_single_step\ee201_debounce_DPB_SCEN_CCEN_MCEN.v" Line 157: Result of 29-bit expression is truncated to fit in 28-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\blakesim\Documents\lab6\lab6\ee201_divider_with_single_step\ee201_debounce_DPB_SCEN_CCEN_MCEN.v" Line 169: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\blakesim\Documents\lab6\lab6\ee201_divider_with_single_step\ee201_debounce_DPB_SCEN_CCEN_MCEN.v" Line 174: Result of 29-bit expression is truncated to fit in 28-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\blakesim\Documents\lab6\lab6\ee201_divider_with_single_step\ee201_debounce_DPB_SCEN_CCEN_MCEN.v" Line 187: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\blakesim\Documents\lab6\lab6\ee201_divider_with_single_step\ee201_debounce_DPB_SCEN_CCEN_MCEN.v" Line 192: Result of 29-bit expression is truncated to fit in 28-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\blakesim\Documents\lab6\lab6\ee201_divider_with_single_step\ee201_debounce_DPB_SCEN_CCEN_MCEN.v" Line 224: Result of 29-bit expression is truncated to fit in 28-bit target.
+
+Elaborating module <simon_data_path>.
+
+Elaborating module <CB8CE_HXILINX_simon_data_path>.
+WARNING:HDLCompiler:413 - "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf" Line 72: Result of 9-bit expression is truncated to fit in 8-bit target.
+
+Elaborating module <COMP8_HXILINX_simon_data_path>.
+
+Elaborating module <BUF>.
+
+Elaborating module <CB2CE_HXILINX_simon_data_path>.
+WARNING:HDLCompiler:413 - "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf" Line 102: Result of 3-bit expression is truncated to fit in 2-bit target.
+
+Elaborating module <decoder>.
+
+Elaborating module <VCC>.
+
+Elaborating module <reg1>.
+
+Elaborating module <simon_state>.
+WARNING:HDLCompiler:1127 - "C:\Users\blakesim\Documents\final_project\final_project\simon_state.v" Line 51: Assignment to qj_check ignored, since the identifier is never used
+
+Elaborating module <OR4>.
+
+Elaborating module <con64>.
+
+Elaborating module <getx_y>.
+
+Elaborating module <AND2>.
+
+Elaborating module <counter25>.
+WARNING:HDLCompiler:413 - "C:\Users\blakesim\Documents\final_project\final_project\counter25.v" Line 45: Result of 26-bit expression is truncated to fit in 25-bit target.
+
+Elaborating module <flag>.
+
+Elaborating module <ADD8_HXILINX_simon_data_path>.
+
+Elaborating module <con1>.
+
+Elaborating module <high_score>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <simon_top>.
+    Related source file is "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v".
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 115: Output port <DPB> of the instance <ee201_debouncer_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 115: Output port <MCEN> of the instance <ee201_debouncer_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 115: Output port <CCEN> of the instance <ee201_debouncer_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 119: Output port <DPB> of the instance <ee201_debouncer> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 119: Output port <MCEN> of the instance <ee201_debouncer> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 119: Output port <CCEN> of the instance <ee201_debouncer> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 122: Output port <DPB> of the instance <ee201_debouncer_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 122: Output port <MCEN> of the instance <ee201_debouncer_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 122: Output port <CCEN> of the instance <ee201_debouncer_2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 125: Output port <DPB> of the instance <ee201_debouncer_3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 125: Output port <MCEN> of the instance <ee201_debouncer_3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 125: Output port <CCEN> of the instance <ee201_debouncer_3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 128: Output port <DPB> of the instance <ee201_debouncer_4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 128: Output port <MCEN> of the instance <ee201_debouncer_4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\lab9\merge_arrays_mcu_top.v" line 128: Output port <CCEN> of the instance <ee201_debouncer_4> is unconnected or connected to loadless signal.
+    Found 27-bit register for signal <DIV_CLK>.
+    Found 27-bit adder for signal <DIV_CLK[26]_GND_1_o_add_1_OUT> created at line 103.
+    Found 16x8-bit Read Only RAM for signal <SSD_CATHODES>
+    Found 1-bit 4-to-1 multiplexer for signal <SSD<3>> created at line 213.
+    Found 1-bit 4-to-1 multiplexer for signal <SSD<2>> created at line 213.
+    Found 1-bit 4-to-1 multiplexer for signal <SSD<1>> created at line 213.
+    Found 1-bit 4-to-1 multiplexer for signal <SSD<0>> created at line 213.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  27 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+Unit <simon_top> synthesized.
+
+Synthesizing Unit <ee201_debouncer>.
+    Related source file is "C:\Users\blakesim\Documents\lab6\lab6\ee201_divider_with_single_step\ee201_debounce_DPB_SCEN_CCEN_MCEN.v".
+        N_dc = 28
+    Set property "fsm_encoding = user" for signal <state>.
+    Found 6-bit register for signal <state>.
+    Found 28-bit register for signal <debounce_count>.
+    Found 4-bit register for signal <MCEN_count>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 20                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 13                                             |
+    | Clock              | CLK (rising_edge)                              |
+    | Reset              | RESET (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000000                                         |
+    | Encoding           | user                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 28-bit adder for signal <debounce_count[27]_GND_3_o_add_2_OUT> created at line 157.
+    Found 4-bit adder for signal <MCEN_count[3]_GND_3_o_add_5_OUT> created at line 169.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <ee201_debouncer> synthesized.
+
+Synthesizing Unit <simon_data_path>.
+    Related source file is "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf".
+    Set property "HU_SET = XLXI_4_0" for instance <XLXI_4>.
+    Set property "HU_SET = XLXI_5_1" for instance <XLXI_5>.
+    Set property "HU_SET = XLXI_7_2" for instance <XLXI_7>.
+    Set property "HU_SET = XLXI_496_3" for instance <XLXI_496>.
+    Set property "HU_SET = XLXI_512_4" for instance <XLXI_512>.
+    Set property "HU_SET = XLXI_581_5" for instance <XLXI_581>.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf" line 171: Output port <CEO> of the instance <XLXI_4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf" line 171: Output port <TC> of the instance <XLXI_4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf" line 178: Output port <CEO> of the instance <XLXI_5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf" line 178: Output port <TC> of the instance <XLXI_5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf" line 191: Output port <CEO> of the instance <XLXI_496> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf" line 191: Output port <TC> of the instance <XLXI_496> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf" line 266: Output port <CO> of the instance <XLXI_581> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf" line 266: Output port <OFL> of the instance <XLXI_581> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <simon_data_path> synthesized.
+
+Synthesizing Unit <CB8CE_HXILINX_simon_data_path>.
+    Related source file is "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf".
+    Found 8-bit register for signal <Q>.
+    Found 8-bit adder for signal <Q[7]_GND_5_o_add_0_OUT> created at line 72.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+Unit <CB8CE_HXILINX_simon_data_path> synthesized.
+
+Synthesizing Unit <COMP8_HXILINX_simon_data_path>.
+    Related source file is "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf".
+    Found 8-bit comparator equal for signal <EQ> created at line 48
+    Summary:
+	inferred   1 Comparator(s).
+Unit <COMP8_HXILINX_simon_data_path> synthesized.
+
+Synthesizing Unit <CB2CE_HXILINX_simon_data_path>.
+    Related source file is "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf".
+    Found 1-bit register for signal <Q1>.
+    Found 1-bit register for signal <Q0>.
+    Found 2-bit adder for signal <Q1_GND_8_o_add_0_OUT> created at line 102.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 D-type flip-flop(s).
+Unit <CB2CE_HXILINX_simon_data_path> synthesized.
+
+Synthesizing Unit <decoder>.
+    Related source file is "C:\Users\blakesim\Documents\final_project\final_project\decoder.v".
+WARNING:Xst:647 - Input <I<7:6>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <red>.
+    Found 1-bit register for signal <blue>.
+    Found 1-bit register for signal <green>.
+    Found 1-bit register for signal <yellow>.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_9_o_GND_9_o_equal_11_o> created at line 41.
+    Found 1-bit 64-to-1 multiplexer for signal <GND_9_o_GND_9_o_equal_9_o> created at line 41.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <decoder> synthesized.
+
+Synthesizing Unit <reg1>.
+    Related source file is "C:\Users\blakesim\Documents\final_project\final_project\reg1.v".
+    Found 64-bit register for signal <Y>.
+    Found 64-bit register for signal <X>.
+    Summary:
+	inferred 128 D-type flip-flop(s).
+Unit <reg1> synthesized.
+
+Synthesizing Unit <simon_state>.
+    Related source file is "C:\Users\blakesim\Documents\final_project\final_project\simon_state.v".
+    Found 11-bit register for signal <state>.
+    Found 1-bit register for signal <g2>.
+    Found 1-bit register for signal <g4>.
+    Found 1-bit register for signal <g3>.
+    Found 1-bit register for signal <g1>.
+    Found 1-bit register for signal <corr>.
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 11                                             |
+    | Transitions        | 21                                             |
+    | Inputs             | 7                                              |
+    | Outputs            | 20                                             |
+    | Clock              | CLK (rising_edge)                              |
+    | Reset              | RESET (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 10000000000                                    |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   5 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <simon_state> synthesized.
+
+Synthesizing Unit <con64>.
+    Related source file is "C:\Users\blakesim\Documents\final_project\final_project\con64.v".
+    Summary:
+	no macro.
+Unit <con64> synthesized.
+
+Synthesizing Unit <getx_y>.
+    Related source file is "C:\Users\blakesim\Documents\final_project\final_project\getx_y.v".
+    Found 64-bit register for signal <Y>.
+    Found 64-bit register for signal <X>.
+    Summary:
+	inferred 128 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <getx_y> synthesized.
+
+Synthesizing Unit <counter25>.
+    Related source file is "C:\Users\blakesim\Documents\final_project\final_project\counter25.v".
+    Found 25-bit register for signal <count>.
+    Found 1-bit register for signal <out>.
+    Found 25-bit adder for signal <count[24]_GND_18_o_add_2_OUT> created at line 45.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+Unit <counter25> synthesized.
+
+Synthesizing Unit <flag>.
+    Related source file is "C:\Users\blakesim\Documents\final_project\final_project\flag.v".
+    Found 1-bit register for signal <flag1>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <flag> synthesized.
+
+Synthesizing Unit <ADD8_HXILINX_simon_data_path>.
+    Related source file is "C:\Users\blakesim\Documents\final_project\final_project\simon_data_path.vf".
+    Found 9-bit adder for signal <n0010> created at line 34.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <ADD8_HXILINX_simon_data_path> synthesized.
+
+Synthesizing Unit <con1>.
+    Related source file is "C:\Users\blakesim\Documents\final_project\final_project\con1.v".
+    Summary:
+	no macro.
+Unit <con1> synthesized.
+
+Synthesizing Unit <high_score>.
+    Related source file is "C:\Users\blakesim\Documents\final_project\final_project\high_score.v".
+    Found 8-bit register for signal <J_high>.
+    Found 8-bit comparator greater for signal <n0000> created at line 36
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <high_score> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x8-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 16
+ 2-bit adder                                           : 1
+ 25-bit adder                                          : 1
+ 27-bit adder                                          : 1
+ 28-bit adder                                          : 5
+ 4-bit adder                                           : 5
+ 8-bit adder                                           : 2
+ 9-bit adder                                           : 1
+# Registers                                            : 32
+ 1-bit register                                        : 13
+ 25-bit register                                       : 1
+ 27-bit register                                       : 1
+ 28-bit register                                       : 5
+ 4-bit register                                        : 5
+ 64-bit register                                       : 4
+ 8-bit register                                        : 3
+# Comparators                                          : 3
+ 8-bit comparator equal                                : 2
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 17
+ 1-bit 2-to-1 multiplexer                              : 9
+ 1-bit 4-to-1 multiplexer                              : 4
+ 1-bit 64-to-1 multiplexer                             : 2
+ 64-bit 2-to-1 multiplexer                             : 2
+# FSMs                                                 : 6
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <CB8CE_HXILINX_simon_data_path>.
+The following registers are absorbed into counter <Q>: 1 register on signal <Q>.
+Unit <CB8CE_HXILINX_simon_data_path> synthesized (advanced).
+
+Synthesizing (advanced) Unit <counter25>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <counter25> synthesized (advanced).
+
+Synthesizing (advanced) Unit <simon_top>.
+The following registers are absorbed into counter <DIV_CLK>: 1 register on signal <DIV_CLK>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_SSD_CATHODES> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <SSD>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <Dp>            |          |
+    -----------------------------------------------------------------------
+Unit <simon_top> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x8-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 12
+ 2-bit adder                                           : 1
+ 28-bit adder                                          : 5
+ 4-bit adder                                           : 5
+ 9-bit adder                                           : 1
+# Counters                                             : 4
+ 25-bit up counter                                     : 1
+ 27-bit up counter                                     : 1
+ 8-bit up counter                                      : 2
+# Registers                                            : 437
+ Flip-Flops                                            : 437
+# Comparators                                          : 3
+ 8-bit comparator equal                                : 2
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 16
+ 1-bit 2-to-1 multiplexer                              : 8
+ 1-bit 4-to-1 multiplexer                              : 4
+ 1-bit 64-to-1 multiplexer                             : 2
+ 64-bit 2-to-1 multiplexer                             : 2
+# FSMs                                                 : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Optimizing FSM <ee201_debouncer_0/FSM_0> on signal <state[1:6]> with user encoding.
+Optimizing FSM <ee201_debouncer_2/FSM_0> on signal <state[1:6]> with user encoding.
+Optimizing FSM <ee201_debouncer_3/FSM_0> on signal <state[1:6]> with user encoding.
+Optimizing FSM <ee201_debouncer_1/FSM_0> on signal <state[1:6]> with user encoding.
+Optimizing FSM <ee201_debouncer_4/FSM_0> on signal <state[1:6]> with user encoding.
+--------------------
+ State  | Encoding
+--------------------
+ 000000 | 000000
+ 000001 | 000001
+ 111100 | 111100
+ 100000 | 100000
+ 101100 | 101100
+ 100100 | 100100
+ 101101 | 101101
+ 100001 | 100001
+ 100010 | 100010
+--------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <UUT/XLXI_541/FSM_1> on signal <state[1:11]> with user encoding.
+----------------------------
+ State       | Encoding
+----------------------------
+ 10000000000 | 10000000000
+ 01000000000 | 01000000000
+ 00100000000 | 00100000000
+ 00010000000 | 00010000000
+ 00001000000 | 00001000000
+ 00000100000 | 00000100000
+ 00000000100 | 00000000100
+ 00000001000 | 00000001000
+ 00000010000 | 00000010000
+ 00000000010 | 00000000010
+ 00000000001 | 00000000001
+----------------------------
+WARNING:Xst:1710 - FF/Latch <Y_5> (without init value) has a constant value of 0 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Y_15> (without init value) has a constant value of 0 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Y_17> (without init value) has a constant value of 1 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Y_23> (without init value) has a constant value of 0 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Y_33> (without init value) has a constant value of 0 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Y_39> (without init value) has a constant value of 0 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Y_53> (without init value) has a constant value of 1 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Y_55> (without init value) has a constant value of 0 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <X_0> (without init value) has a constant value of 0 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <X_4> (without init value) has a constant value of 0 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <X_19> (without init value) has a constant value of 0 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <X_24> (without init value) has a constant value of 1 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <X_27> (without init value) has a constant value of 0 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <X_36> (without init value) has a constant value of 0 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <X_42> (without init value) has a constant value of 0 in block <getx_y>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <DIV_CLK_20> of sequential type is unconnected in block <simon_top>.
+WARNING:Xst:2677 - Node <DIV_CLK_21> of sequential type is unconnected in block <simon_top>.
+WARNING:Xst:2677 - Node <DIV_CLK_22> of sequential type is unconnected in block <simon_top>.
+WARNING:Xst:2677 - Node <DIV_CLK_23> of sequential type is unconnected in block <simon_top>.
+WARNING:Xst:2677 - Node <DIV_CLK_24> of sequential type is unconnected in block <simon_top>.
+WARNING:Xst:2677 - Node <DIV_CLK_25> of sequential type is unconnected in block <simon_top>.
+WARNING:Xst:2677 - Node <DIV_CLK_26> of sequential type is unconnected in block <simon_top>.
+INFO:Xst:2261 - The FF/Latch <Y_0> in Unit <getx_y> is equivalent to the following 5 FFs/Latches, which will be removed : <Y_24> <Y_41> <Y_52> <X_33> <X_40> 
+INFO:Xst:2261 - The FF/Latch <Y_19> in Unit <getx_y> is equivalent to the following 9 FFs/Latches, which will be removed : <Y_28> <Y_34> <Y_50> <X_7> <X_18> <X_23> <X_32> <X_45> <X_59> 
+INFO:Xst:2261 - The FF/Latch <Y_20> in Unit <getx_y> is equivalent to the following 7 FFs/Latches, which will be removed : <Y_35> <Y_58> <X_10> <X_13> <X_29> <X_43> <X_62> 
+INFO:Xst:2261 - The FF/Latch <Y_12> in Unit <getx_y> is equivalent to the following 8 FFs/Latches, which will be removed : <Y_42> <Y_59> <X_8> <X_9> <X_30> <X_35> <X_54> <X_60> 
+INFO:Xst:2261 - The FF/Latch <Y_1> in Unit <getx_y> is equivalent to the following 10 FFs/Latches, which will be removed : <Y_6> <Y_13> <Y_32> <Y_37> <Y_45> <Y_49> <Y_60> <Y_62> <X_6> <X_15> 
+INFO:Xst:2261 - The FF/Latch <Y_2> in Unit <getx_y> is equivalent to the following 9 FFs/Latches, which will be removed : <Y_10> <Y_25> <Y_26> <X_11> <X_14> <X_17> <X_20> <X_51> <X_58> 
+INFO:Xst:2261 - The FF/Latch <Y_3> in Unit <getx_y> is equivalent to the following 8 FFs/Latches, which will be removed : <Y_7> <Y_30> <Y_40> <Y_51> <Y_54> <X_38> <X_44> <X_55> 
+INFO:Xst:2261 - The FF/Latch <Y_4> in Unit <getx_y> is equivalent to the following 7 FFs/Latches, which will be removed : <Y_27> <Y_29> <Y_38> <Y_47> <Y_56> <X_16> <X_56> 
+INFO:Xst:2261 - The FF/Latch <Y_21> in Unit <getx_y> is equivalent to the following 5 FFs/Latches, which will be removed : <X_1> <X_2> <X_5> <X_12> <X_52> 
+INFO:Xst:2261 - The FF/Latch <Y_22> in Unit <getx_y> is equivalent to the following 3 FFs/Latches, which will be removed : <X_26> <X_49> <X_50> 
+INFO:Xst:2261 - The FF/Latch <Y_14> in Unit <getx_y> is equivalent to the following 4 FFs/Latches, which will be removed : <X_34> <X_41> <X_48> <X_57> 
+INFO:Xst:2261 - The FF/Latch <Y_8> in Unit <getx_y> is equivalent to the following 8 FFs/Latches, which will be removed : <Y_31> <Y_48> <Y_61> <Y_63> <X_25> <X_39> <X_46> <X_61> 
+INFO:Xst:2261 - The FF/Latch <Y_11> in Unit <getx_y> is equivalent to the following 9 FFs/Latches, which will be removed : <Y_16> <Y_43> <Y_44> <X_3> <X_21> <X_31> <X_37> <X_47> <X_63> 
+INFO:Xst:2261 - The FF/Latch <Y_9> in Unit <getx_y> is equivalent to the following 7 FFs/Latches, which will be removed : <Y_18> <Y_36> <Y_46> <Y_57> <X_22> <X_28> <X_53> 
+
+Optimizing unit <reg1> ...
+
+Optimizing unit <simon_top> ...
+
+Optimizing unit <ee201_debouncer> ...
+
+Optimizing unit <simon_data_path> ...
+
+Optimizing unit <simon_state> ...
+
+Optimizing unit <CB2CE_HXILINX_simon_data_path> ...
+
+Optimizing unit <high_score> ...
+
+Optimizing unit <CB8CE_HXILINX_simon_data_path> ...
+
+Optimizing unit <getx_y> ...
+
+Optimizing unit <decoder> ...
+
+Optimizing unit <COMP8_HXILINX_simon_data_path> ...
+
+Optimizing unit <ADD8_HXILINX_simon_data_path> ...
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/Y_55> (without init value) has a constant value of 0 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/Y_53> (without init value) has a constant value of 1 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/Y_39> (without init value) has a constant value of 0 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/Y_33> (without init value) has a constant value of 0 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/Y_23> (without init value) has a constant value of 0 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/Y_17> (without init value) has a constant value of 1 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/Y_15> (without init value) has a constant value of 0 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/Y_5> (without init value) has a constant value of 0 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/X_42> (without init value) has a constant value of 0 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/X_36> (without init value) has a constant value of 0 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/X_27> (without init value) has a constant value of 0 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/X_24> (without init value) has a constant value of 1 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/X_19> (without init value) has a constant value of 0 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/X_4> (without init value) has a constant value of 0 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UUT/XLXI_538/X_0> (without init value) has a constant value of 0 in block <simon_top>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <UUT/XLXI_538/Y_14> in Unit <simon_top> is equivalent to the following 4 FFs/Latches, which will be removed : <UUT/XLXI_538/X_57> <UUT/XLXI_538/X_48> <UUT/XLXI_538/X_41> <UUT/XLXI_538/X_34> 
+INFO:Xst:2261 - The FF/Latch <UUT/XLXI_538/Y_21> in Unit <simon_top> is equivalent to the following 5 FFs/Latches, which will be removed : <UUT/XLXI_538/X_52> <UUT/XLXI_538/X_12> <UUT/XLXI_538/X_5> <UUT/XLXI_538/X_2> <UUT/XLXI_538/X_1> 
+INFO:Xst:2261 - The FF/Latch <UUT/XLXI_538/Y_22> in Unit <simon_top> is equivalent to the following 3 FFs/Latches, which will be removed : <UUT/XLXI_538/X_50> <UUT/XLXI_538/X_49> <UUT/XLXI_538/X_26> 
+INFO:Xst:2261 - The FF/Latch <UUT/XLXI_538/Y_26> in Unit <simon_top> is equivalent to the following 9 FFs/Latches, which will be removed : <UUT/XLXI_538/Y_25> <UUT/XLXI_538/Y_10> <UUT/XLXI_538/Y_2> <UUT/XLXI_538/X_58> <UUT/XLXI_538/X_51> <UUT/XLXI_538/X_20> <UUT/XLXI_538/X_17> <UUT/XLXI_538/X_14> <UUT/XLXI_538/X_11> 
+INFO:Xst:2261 - The FF/Latch <UUT/XLXI_538/Y_44> in Unit <simon_top> is equivalent to the following 9 FFs/Latches, which will be removed : <UUT/XLXI_538/Y_43> <UUT/XLXI_538/Y_16> <UUT/XLXI_538/Y_11> <UUT/XLXI_538/X_63> <UUT/XLXI_538/X_47> <UUT/XLXI_538/X_37> <UUT/XLXI_538/X_31> <UUT/XLXI_538/X_21> <UUT/XLXI_538/X_3> 
+INFO:Xst:2261 - The FF/Latch <UUT/XLXI_538/Y_50> in Unit <simon_top> is equivalent to the following 9 FFs/Latches, which will be removed : <UUT/XLXI_538/Y_34> <UUT/XLXI_538/Y_28> <UUT/XLXI_538/Y_19> <UUT/XLXI_538/X_59> <UUT/XLXI_538/X_45> <UUT/XLXI_538/X_32> <UUT/XLXI_538/X_23> <UUT/XLXI_538/X_18> <UUT/XLXI_538/X_7> 
+INFO:Xst:2261 - The FF/Latch <UUT/XLXI_538/Y_52> in Unit <simon_top> is equivalent to the following 5 FFs/Latches, which will be removed : <UUT/XLXI_538/Y_41> <UUT/XLXI_538/Y_24> <UUT/XLXI_538/Y_0> <UUT/XLXI_538/X_40> <UUT/XLXI_538/X_33> 
+INFO:Xst:2261 - The FF/Latch <UUT/XLXI_538/Y_54> in Unit <simon_top> is equivalent to the following 8 FFs/Latches, which will be removed : <UUT/XLXI_538/Y_51> <UUT/XLXI_538/Y_40> <UUT/XLXI_538/Y_30> <UUT/XLXI_538/Y_7> <UUT/XLXI_538/Y_3> <UUT/XLXI_538/X_55> <UUT/XLXI_538/X_44> <UUT/XLXI_538/X_38> 
+INFO:Xst:2261 - The FF/Latch <UUT/XLXI_538/Y_56> in Unit <simon_top> is equivalent to the following 7 FFs/Latches, which will be removed : <UUT/XLXI_538/Y_47> <UUT/XLXI_538/Y_38> <UUT/XLXI_538/Y_29> <UUT/XLXI_538/Y_27> <UUT/XLXI_538/Y_4> <UUT/XLXI_538/X_56> <UUT/XLXI_538/X_16> 
+INFO:Xst:2261 - The FF/Latch <UUT/XLXI_538/Y_62> in Unit <simon_top> is equivalent to the following 10 FFs/Latches, which will be removed : <UUT/XLXI_538/Y_60> <UUT/XLXI_538/Y_49> <UUT/XLXI_538/Y_45> <UUT/XLXI_538/Y_37> <UUT/XLXI_538/Y_32> <UUT/XLXI_538/Y_13> <UUT/XLXI_538/Y_6> <UUT/XLXI_538/Y_1> <UUT/XLXI_538/X_15> <UUT/XLXI_538/X_6> 
+INFO:Xst:2261 - The FF/Latch <UUT/XLXI_538/Y_57> in Unit <simon_top> is equivalent to the following 7 FFs/Latches, which will be removed : <UUT/XLXI_538/Y_46> <UUT/XLXI_538/Y_36> <UUT/XLXI_538/Y_18> <UUT/XLXI_538/Y_9> <UUT/XLXI_538/X_53> <UUT/XLXI_538/X_28> <UUT/XLXI_538/X_22> 
+INFO:Xst:2261 - The FF/Latch <UUT/XLXI_538/Y_63> in Unit <simon_top> is equivalent to the following 8 FFs/Latches, which will be removed : <UUT/XLXI_538/Y_61> <UUT/XLXI_538/Y_48> <UUT/XLXI_538/Y_31> <UUT/XLXI_538/Y_8> <UUT/XLXI_538/X_61> <UUT/XLXI_538/X_46> <UUT/XLXI_538/X_39> <UUT/XLXI_538/X_25> 
+INFO:Xst:2261 - The FF/Latch <UUT/XLXI_538/Y_58> in Unit <simon_top> is equivalent to the following 7 FFs/Latches, which will be removed : <UUT/XLXI_538/Y_35> <UUT/XLXI_538/Y_20> <UUT/XLXI_538/X_62> <UUT/XLXI_538/X_43> <UUT/XLXI_538/X_29> <UUT/XLXI_538/X_13> <UUT/XLXI_538/X_10> 
+INFO:Xst:2261 - The FF/Latch <UUT/XLXI_538/Y_59> in Unit <simon_top> is equivalent to the following 8 FFs/Latches, which will be removed : <UUT/XLXI_538/Y_42> <UUT/XLXI_538/Y_12> <UUT/XLXI_538/X_60> <UUT/XLXI_538/X_54> <UUT/XLXI_538/X_35> <UUT/XLXI_538/X_30> <UUT/XLXI_538/X_9> <UUT/XLXI_538/X_8> 
+INFO:Xst:3203 - The FF/Latch <UUT/XLXI_561/Y_11> in Unit <simon_top> is the opposite to the following FF/Latch, which will be removed : <UUT/XLXI_561/Y_8> 
+INFO:Xst:3203 - The FF/Latch <UUT/XLXI_561/Y_14> in Unit <simon_top> is the opposite to the following FF/Latch, which will be removed : <UUT/XLXI_561/Y_2> 
+INFO:Xst:3203 - The FF/Latch <UUT/XLXI_561/Y_20> in Unit <simon_top> is the opposite to the following FF/Latch, which will be removed : <UUT/XLXI_561/Y_12> 
+INFO:Xst:3203 - The FF/Latch <UUT/XLXI_561/Y_21> in Unit <simon_top> is the opposite to the following FF/Latch, which will be removed : <UUT/XLXI_561/Y_0> 
+INFO:Xst:3203 - The FF/Latch <UUT/XLXI_561/Y_22> in Unit <simon_top> is the opposite to the following FF/Latch, which will be removed : <UUT/XLXI_561/Y_19> 
+INFO:Xst:3203 - The FF/Latch <UUT/XLXI_561/Y_3> in Unit <simon_top> is the opposite to the following FF/Latch, which will be removed : <UUT/XLXI_561/Y_1> 
+INFO:Xst:3203 - The FF/Latch <UUT/XLXI_561/Y_9> in Unit <simon_top> is the opposite to the following FF/Latch, which will be removed : <UUT/XLXI_561/Y_4> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block simon_top, actual ratio is 7.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 304
+ Flip-Flops                                            : 304
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : simon_top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1005
+#      AND2                        : 1
+#      BUF                         : 1
+#      GND                         : 4
+#      INV                         : 18
+#      LUT1                        : 190
+#      LUT2                        : 25
+#      LUT3                        : 9
+#      LUT4                        : 47
+#      LUT5                        : 187
+#      LUT6                        : 106
+#      MUXCY                       : 199
+#      MUXF7                       : 5
+#      OR4                         : 1
+#      VCC                         : 3
+#      XORCY                       : 209
+# FlipFlops/Latches                : 304
+#      FD                          : 191
+#      FDC                         : 60
+#      FDCE                        : 18
+#      FDE                         : 19
+#      FDP                         : 1
+#      FDRE                        : 12
+#      FDSE                        : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 30
+#      IBUF                        : 5
+#      OBUF                        : 25
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             304  out of  18224     1%  
+ Number of Slice LUTs:                  582  out of   9112     6%  
+    Number used as Logic:               582  out of   9112     6%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    594
+   Number with an unused Flip Flop:     290  out of    594    48%  
+   Number with an unused LUT:            12  out of    594     2%  
+   Number of fully used LUT-FF pairs:   292  out of    594    49%  
+   Number of unique control sets:        11
+
+IO Utilization: 
+ Number of IOs:                          31
+ Number of bonded IOBs:                  31  out of    232    13%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+ClkPort                            | BUFGP                  | 304   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.775ns (Maximum Frequency: 209.433MHz)
+   Minimum input arrival time before clock: 4.498ns
+   Maximum output required time after clock: 6.217ns
+   Maximum combinational path delay: 4.595ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ClkPort'
+  Clock period: 4.775ns (frequency: 209.433MHz)
+  Total number of paths / destination ports: 6883 / 397
+-------------------------------------------------------------------------
+Delay:               4.775ns (Levels of Logic = 4)
+  Source:            UUT/XLXI_570/count_13 (FF)
+  Destination:       UUT/XLXI_570/count_24 (FF)
+  Source Clock:      ClkPort rising
+  Destination Clock: ClkPort rising
+
+  Data Path: UUT/XLXI_570/count_13 to UUT/XLXI_570/count_24
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.447   1.015  UUT/XLXI_570/count_13 (UUT/XLXI_570/count_13)
+     LUT6:I0->O            1   0.203   0.808  UUT/XLXI_570/count[24]_PWR_17_o_equal_2_o<24>3 (UUT/XLXI_570/count[24]_PWR_17_o_equal_2_o<24>2)
+     LUT6:I3->O            3   0.205   0.651  UUT/XLXI_570/count[24]_PWR_17_o_equal_2_o<24>5 (UUT/XLXI_570/count[24]_PWR_17_o_equal_2_o)
+     LUT6:I5->O           13   0.205   0.933  UUT/XLXI_570/Mcount_count_val251 (UUT/XLXI_570/Mcount_count_val)
+     LUT4:I3->O            1   0.205   0.000  UUT/XLXI_570/count_24_rstpot (UUT/XLXI_570/count_24_rstpot)
+     FD:D                      0.102          UUT/XLXI_570/count_24
+    ----------------------------------------
+    Total                      4.775ns (1.367ns logic, 3.408ns route)
+                                       (28.6% logic, 71.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ClkPort'
+  Total number of paths / destination ports: 85 / 80
+-------------------------------------------------------------------------
+Offset:              4.498ns (Levels of Logic = 3)
+  Source:            BtnC (PAD)
+  Destination:       ee201_debouncer_4/state_FSM_FFd6 (FF)
+  Destination Clock: ClkPort rising
+
+  Data Path: BtnC to ee201_debouncer_4/state_FSM_FFd6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            57   1.222   1.958  BtnC_IBUF (BtnC_IBUF)
+     LUT6:I0->O            1   0.203   0.808  ee201_debouncer_4/state_FSM_FFd6-In2 (ee201_debouncer_4/state_FSM_FFd6-In2)
+     LUT5:I2->O            1   0.205   0.000  ee201_debouncer_4/state_FSM_FFd6-In3 (ee201_debouncer_4/state_FSM_FFd6-In)
+     FDC:D                     0.102          ee201_debouncer_4/state_FSM_FFd6
+    ----------------------------------------
+    Total                      4.498ns (1.732ns logic, 2.766ns route)
+                                       (38.5% logic, 61.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ClkPort'
+  Total number of paths / destination ports: 180 / 15
+-------------------------------------------------------------------------
+Offset:              6.217ns (Levels of Logic = 3)
+  Source:            DIV_CLK_18 (FF)
+  Destination:       Ca (PAD)
+  Source Clock:      ClkPort rising
+
+  Data Path: DIV_CLK_18 to Ca
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              9   0.447   1.194  DIV_CLK_18 (DIV_CLK_18)
+     LUT6:I0->O            7   0.203   1.021  Mmux_SSD<0>11 (SSD<0>)
+     LUT4:I0->O            1   0.203   0.579  Mram_SSD_CATHODES31 (Ce_OBUF)
+     OBUF:I->O                 2.571          Ce_OBUF (Ce)
+    ----------------------------------------
+    Total                      6.217ns (3.424ns logic, 2.793ns route)
+                                       (55.1% logic, 44.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Delay:               4.595ns (Levels of Logic = 2)
+  Source:            BtnL (PAD)
+  Destination:       Ld7 (PAD)
+
+  Data Path: BtnL to Ld7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.222   0.802  BtnL_IBUF (Ld7_OBUF)
+     OBUF:I->O                 2.571          Ld7_OBUF (Ld7)
+    ----------------------------------------
+    Total                      4.595ns (3.793ns logic, 0.802ns route)
+                                       (82.6% logic, 17.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock ClkPort
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ClkPort        |    4.775|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.69 secs
+ 
+--> 
+
+Total memory usage is 235196 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   49 (   0 filtered)
+Number of infos    :   59 (   0 filtered)
+

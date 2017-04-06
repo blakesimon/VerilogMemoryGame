@@ -1,0 +1,10 @@
+Command line:
+   simon_data_path_simon_data_path_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50056
+
+Tue Dec 06 15:55:20 2016
+
+
+ Elaboration Time: 0.125 sec

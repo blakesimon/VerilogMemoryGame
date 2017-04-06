@@ -1,0 +1,8 @@
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/getx_y.v -lang verilog -prj final_project -o getx_y.spl -module getx_y -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 getx_y.spl C:/Users/blakesim/Documents/final_project/final_project/getx_y.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/getx_y.v -lang verilog -prj final_project -o getx_y.spl -module getx_y -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 getx_y.spl C:/Users/blakesim/Documents/final_project/final_project/getx_y.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/getx_y.v -lang verilog -prj final_project -o getx_y.spl -module getx_y -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 getx_y.spl C:/Users/blakesim/Documents/final_project/final_project/getx_y.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/getx_y.v -lang verilog -prj final_project -o getx_y.spl -module getx_y -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 getx_y.spl C:/Users/blakesim/Documents/final_project/final_project/getx_y.sym 

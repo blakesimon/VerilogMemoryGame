@@ -1,0 +1,11 @@
+[Inputs]
+clk
+Q0
+Q1
+[Outputs]
+=X[63:0]=
+=Y[63:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel getx_y
+

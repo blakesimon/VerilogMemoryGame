@@ -1,0 +1,8 @@
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/flag.v -lang verilog -prj final_project -o flag.spl -module flag -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 flag.spl C:/Users/blakesim/Documents/final_project/final_project/flag.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/flag.v -lang verilog -prj final_project -o flag.spl -module flag -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 flag.spl C:/Users/blakesim/Documents/final_project/final_project/flag.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/flag.v -lang verilog -prj final_project -o flag.spl -module flag -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 flag.spl C:/Users/blakesim/Documents/final_project/final_project/flag.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/flag.v -lang verilog -prj final_project -o flag.spl -module flag -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 flag.spl C:/Users/blakesim/Documents/final_project/final_project/flag.sym 

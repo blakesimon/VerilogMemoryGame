@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/reg.v -lang verilog -prj final_project -o .spl -module {} -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/reg.v -lang verilog -prj final_project -o .spl -module {} -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 

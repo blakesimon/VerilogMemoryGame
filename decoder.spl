@@ -1,0 +1,14 @@
+[Inputs]
+clk
+=I[7:0]=
+=X[63:0]=
+=Y[63:0]=
+[Outputs]
+yellow1
+red1
+blue1
+green1
+[BiDir]
+[ATTRIBUTES]
+VeriModel decoder
+

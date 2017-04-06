@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/counter_64bit.v -lang verilog -prj final_project -o counter_64bit.spl -module counter_64bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 counter_64bit.spl C:/Users/blakesim/Documents/final_project/final_project/counter_64bit.sym 

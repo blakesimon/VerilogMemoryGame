@@ -1,0 +1,26 @@
+[Inputs]
+ClkPort
+BtnL
+BtnU
+BtnD
+BtnR
+BtnC
+[Outputs]
+MemOE
+MemWR
+RamCS
+FlashCS
+QuadSpiFlashCS
+Ld7
+Ld6
+Ld5
+Ld4
+Ld3
+Ld2
+Ld1
+Ld0
+
+[BiDir]
+[ATTRIBUTES]
+VeriModel simon_top
+

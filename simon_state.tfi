@@ -1,0 +1,32 @@
+
+
+
+// Instantiate the module
+simon_state instance_name (
+    .CLK(CLK), 
+    .START(START), 
+    .RESET(RESET), 
+    .I_eq_J(I_eq_J), 
+    .timeout(timeout), 
+    .J_max(J_max), 
+    .qini(qini), 
+    .C_en(C_en), 
+    .yello(yello), 
+    .re(re), 
+    .blu(blu), 
+    .gree(gree), 
+    .I_en(I_en), 
+    .J_en(J_en), 
+    .I_cl(I_cl), 
+    .J_cl(J_cl), 
+    .Yellow(Yellow), 
+    .Red(Red), 
+    .Blue(Blue), 
+    .Green(Green), 
+    .g1(g1), 
+    .g2(g2), 
+    .g3(g3), 
+    .g4(g4)
+    );
+
+

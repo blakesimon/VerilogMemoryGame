@@ -1,0 +1,46 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/blakesim/Documents/final_project/final_project/simon_data_path_simon_data_path_sch_tb_isim_beh.exe -prj C:/Users/blakesim/Documents/final_project/final_project/simon_data_path_simon_data_path_sch_tb_beh.prj work.simon_data_path_simon_data_path_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/blakesim/Documents/final_project/final_project/simon_state.v" into library work
+Analyzing Verilog file "C:/Users/blakesim/Documents/final_project/final_project/reg1.v" into library work
+Analyzing Verilog file "C:/Users/blakesim/Documents/final_project/final_project/high_score.v" into library work
+Analyzing Verilog file "C:/Users/blakesim/Documents/final_project/final_project/getx_y.v" into library work
+Analyzing Verilog file "C:/Users/blakesim/Documents/final_project/final_project/flag.v" into library work
+Analyzing Verilog file "C:/Users/blakesim/Documents/final_project/final_project/decoder.v" into library work
+Analyzing Verilog file "C:/Users/blakesim/Documents/final_project/final_project/counter25.v" into library work
+Analyzing Verilog file "C:/Users/blakesim/Documents/final_project/final_project/con64.v" into library work
+Analyzing Verilog file "C:/Users/blakesim/Documents/final_project/final_project/con1.v" into library work
+Analyzing Verilog file "C:/Users/blakesim/Documents/final_project/final_project/simon_data_path.vf" into library work
+Analyzing Verilog file "C:/Users/blakesim/Documents/final_project/final_project/simon_data_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/blakesim/Documents/final_project/final_project/simon_data_tb.v" Line 24: Port current_high is not connected to this instance
+Completed static elaboration
+Compiling module CB8CE_HXILINX_simon_data_path
+Compiling module COMP8_HXILINX_simon_data_path
+Compiling module BUF
+Compiling module CB2CE_HXILINX_simon_data_path
+Compiling module decoder
+Compiling module VCC
+Compiling module reg1
+Compiling module simon_state
+Compiling module OR4
+Compiling module con64
+Compiling module getx_y
+Compiling module AND2
+Compiling module counter25
+Compiling module flag
+Compiling module ADD8_HXILINX_simon_data_path
+Compiling module con1
+Compiling module high_score
+Compiling module simon_data_path
+Compiling module simon_data_path_simon_data_path_...
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 17 sub-compilation(s) to finish...
+Compiled 20 Verilog Units
+Built simulation executable C:/Users/blakesim/Documents/final_project/final_project/simon_data_path_simon_data_path_sch_tb_isim_beh.exe
+Fuse Memory Usage: 29412 KB
+Fuse CPU Usage: 702 ms

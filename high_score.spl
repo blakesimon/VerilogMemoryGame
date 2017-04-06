@@ -1,0 +1,10 @@
+[Inputs]
+clk
+reset
+=J[7:0]=
+[Outputs]
+=high[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel high_score
+

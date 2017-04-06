@@ -1,0 +1,117 @@
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lang verilog -prj final_project -o C:/Users/blakesim/Documents/final_project/final_project/simon_state.tfi -lib work C:/Users/blakesim/Documents/final_project/final_project//simon_state.v -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/simon_state.v -lang verilog -prj final_project -o simon_state.spl -module simon_state -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 simon_state.spl C:/Users/blakesim/Documents/final_project/final_project/simon_state.sym 

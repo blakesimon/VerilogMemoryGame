@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/blakesim/Documents/final_project/final_project/con1.v -lang verilog -prj final_project -o con1.spl -module con1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 con1.spl C:/Users/blakesim/Documents/final_project/final_project/con1.sym 

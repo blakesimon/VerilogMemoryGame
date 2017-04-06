@@ -1,0 +1,7 @@
+[Inputs]
+[Outputs]
+=con[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel con0
+

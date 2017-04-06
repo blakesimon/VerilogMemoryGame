@@ -1,0 +1,9 @@
+[Inputs]
+clk
+=j[7:0]=
+[Outputs]
+=j1[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel jadd1
+

@@ -1,0 +1,11 @@
+[Inputs]
+reset
+clk
+qini
+flag2
+[Outputs]
+flag
+[BiDir]
+[ATTRIBUTES]
+VeriModel initial1
+
